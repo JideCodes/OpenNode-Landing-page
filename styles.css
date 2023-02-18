@@ -261,6 +261,83 @@ section p{
     transition: all 0.6s ease;
 }
 
+/* footer section */
+
 footer{
     background-color: var(--black);
+    height: 100vh;
+}
+
+footer .top-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    position: relative;
+}
+#email-field{
+    position: relative;
+    left: 100px;
+    border-radius: 50px;
+    height: 48px;
+    width: 384px;   
+    box-sizing: border-box;
+    padding-left: 2rem;
+    font-family: var(--p-font);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+#submit-btn{
+    height: 48px;
+    border-radius: 50px;
+    width: 150px;
+    position: relative;
+    right: 120px;
+    left: 0px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    font-family: var(--p-font);
+    font-size: 14px;
+}
+
+footer h1{
+    font-size: 2.6rem;
+    margin-bottom: 24px;
+    font-family: var(--H1);
+    width: 700px;
+    color: white;
+}
+footer h1 span{
+    color: var(--primary);
+}
+.link-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+.link-list img{
+    height: 48px;
+}
+.lists{
+    font-family: var(--p-font);
+}
+.list-bunch{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.list-header {
+    color: white;
+    margin-bottom: 24px;
+}
+footer a{
+    font-family: var(--p-font);
+    font-weight: 400;
+    line-height: 2;
+    display: block;
+    color:#AAADB1;
+    text-decoration: none;
 }
